@@ -16,7 +16,7 @@
 
 img {
   margin-left: -50px;
-  margin-bottom: -70px;
+  margin-bottom: -60px;
 }
 
 .chainlink {
@@ -41,6 +41,7 @@ body {
   overflow: hidden;
 }
 
+
 body {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
@@ -55,9 +56,10 @@ h2 {
   color: #EAEAEA;
   font-family: "Meltdown";
   font-size: 36px;
+  line-height: 1.1em;
 }
 
- h3 {
+h3 {
   color: #EAEAEA;
   font-family: "Meltdown";
   font-size: 28px;
@@ -70,12 +72,30 @@ h2 {
 a { color: inherit; }
 .container {
   width: 90%;
+  padding-bottom: 3em;
 }
 .title {
   margin-top: 0px;
 }
 .subtitle {
   color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a > svg{
+  vertical-align: middle;
+  margin-top: -7px;
+}
+.enter {
+  font-size: 38px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.section a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .right {
@@ -97,10 +117,8 @@ h1, p, li {
 
 h1 {
   font-family: 'JetBrains Mono';
-  line-height: 1.5em;
   font-size: 58px;
 }
-
 
 .side {
   margin: auto;
@@ -141,14 +159,13 @@ h1 {
   transform: translateX(-50%);
 }
 
-
 .candle {
   width: 34px;
   margin: 30px auto 0 auto;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   height: 40%;
-  max-height: 300px;
+  max-height: 400px;
   align-self: flex-end;
   -webkit-animation: blink 0.1s infinite;
           animation: blink 0.1s infinite;
