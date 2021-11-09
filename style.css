@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Lato:wght@300&display=swap');
 
 @font-face {
   font-family: "Meltdown";
@@ -7,6 +7,11 @@
 @font-face {
   font-family: "Logo";
   src: url(font/Infernalda.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Gameboy";
+  src: url(font/GameBoy.ttf) format('truetype');
 }
 
 #main {
@@ -24,10 +29,8 @@ img {
 }
 
 body {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 17px;
   font-feature-settings: 'zero' on;
   justify-content: flex-start;
   -webkit-font-smoothing: antialiased;
